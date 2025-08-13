@@ -18,7 +18,7 @@ namespace TheSampleApi.Startup
                 app.MapScalarApiReference(options =>
                 {
                     options.Title = "The Sample API";
-                    options.Theme = ScalarTheme.Saturn;
+                    //options.Theme = ScalarTheme.Saturn;
                     options.Layout = ScalarLayout.Modern;
                     options.HideClientButton = true;
                 });
